@@ -1,0 +1,10 @@
+.DS_Store
+sorcerun_auth.json
+temp
+data
+file_storage
+gifs
+lib
+temp.png
+db
+__pycache__
