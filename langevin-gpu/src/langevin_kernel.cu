@@ -7,8 +7,6 @@
 #define STEPS_PER_KERNEL 1000
 
 extern "C" {
-// TODO: dont hard code this, instead take either template args or runtime args
-// for drift coeffs + potential type
 __device__ float device_dV(int edge_index, float x) {
   return 10.0f * (edge_index + 1.0f) * x;
   // return 30.0f;

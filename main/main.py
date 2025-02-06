@@ -186,7 +186,6 @@ def adapter(config, _run):
         dt = solver.dt
 
         # Set initial uniform distribution
-        # TODO update code for different edge lengths
         with torch.no_grad():
             # Uniform density: (1/num_edges) / edge_length per cell
             solver.p[:, :] = (1.0 / num_edges) / edge_length
