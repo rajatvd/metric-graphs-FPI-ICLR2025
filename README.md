@@ -1,5 +1,7 @@
 # Sampling On Metric Graphs
 
+Submission #28 to ICLR 2025 Workshop: Frontiers in Probabilistic Inference: Learning meets Sampling.
+
 ## Setup
 
 ### Python packages
